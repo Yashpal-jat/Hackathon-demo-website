@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="analysis.css">
+    <title>analysis-statements</title>
+</head>
+<body>
+    <div class="hero">
+        <div id="hero">
+        <div class="main-contain">
+            <h1>Format Converter</h1>
+            <form action="convert.php" method="POST">
+            <label for="file">Select file to convert:</label>
+            <input type="file" id="file" name="file"><br><br>
+            <label for="format">Select format:</label>
+            <select id="format" name="format">
+            <option value="pdf">PDF</option>
+            <option value="doc">DOC</option>
+            <option value="txt">TXT</option>
+            </select><br><br>
+            <input type="submit" value="Convert">
+            </form>
+        </div>
+    
+        <div class="image-contain"><img src="images/how-to-pdf-to-excel.svg" alt=""></div>
+        </div>
+        <div class="file-contain">
+            <div class="download-file"><a href="">Download File</a></div>
+            <div class="analyse-file"><a href="">Send for Analysis</a></div>
+        </div>
+    </div>
+</body>
+</html>
